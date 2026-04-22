@@ -9,13 +9,13 @@ Este proyecto implementa un motor de recomendación basado en **Neural Collabora
 - `models/`: Pesos guardados del modelo entrenado.
 
 ## 📊 Análisis de Datos (EDA)
-Encontramos que el dataset tiene una **dispersión (sparsity) del [PON AQUÍ TU 95.53]%**, lo cual representa un reto ideal para técnicas de Deep Learning. Las películas más populares incluyen títulos como *American Beauty* y *Star Wars*.
+Encontramos que el dataset tiene una **dispersión (sparsity) del 95.53%**, lo cual representa un reto ideal para técnicas de Deep Learning. Las películas más populares incluyen títulos como *American Beauty* y *Star Wars*.
 
 ## 🧠 Arquitectura del Modelo
 El modelo utiliza **Embeddings** para representar a usuarios e ítems en un espacio latente de 50 dimensiones, seguido de capas densas para capturar interacciones complejas.
 
 ## 📈 Resultados
-- **Métrica de Error (RMSE):** [PON AQUÍ TU ERROR] estrellas.
+- **Métrica de Error (RMSE):** 0.95 estrellas.
 - **Funcionalidad:** El sistema genera un Top 5 de recomendaciones personalizadas para cualquier usuario del sistema.
 
 ## 🛠️ Instalación
